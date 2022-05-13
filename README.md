@@ -22,9 +22,9 @@ Kd:  Decreases overshoot and settling time.
 
 I have start tuning with Kp than Ki and Kd. After first iteration i have updated all 3 parameters for a few more iteration and ended up with final parameter set:
 
-Kp: 0.06
-Ki: 0.0001
-Kd: 1.3
+Kp: 0.15
+Ki: 0.001
+Kd: 2.5
 
 Actually Ki has a very small effect because the road is not straight, error is always changing and steady state error does not effects so much.
 
